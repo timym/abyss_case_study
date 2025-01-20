@@ -1,0 +1,57 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 1986979401
+  files:
+  - duration:
+      nanoseconds: 1986979401
+    message_count: 18
+    path: case_study.db3
+    starting_time:
+      nanoseconds_since_epoch: 1693355409817288574
+  message_count: 18
+  relative_file_paths:
+  - case_study.db3
+  starting_time:
+    nanoseconds_since_epoch: 1693355409817288574
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_3/dec/camera_info
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/CameraInfo
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_2/dec/camera_info
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/CameraInfo
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_1/dec/camera_info
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/CameraInfo
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_2/dec/manual_white_balance
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_3/dec/manual_white_balance
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+  - message_count: 3
+    topic_metadata:
+      name: /platypus/camera_1/dec/manual_white_balance
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+  version: 6

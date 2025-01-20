@@ -1,0 +1,3 @@
+To playback bag file
+
+$ ros2 bag play case_study --loop
